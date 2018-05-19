@@ -1,0 +1,19 @@
+{
+  "name": "Herbie",
+  "version": "1.0.0",
+  "description": "学习webpack&&node脚本命令",
+  "main": "index.js",
+  "scripts": {
+    "pretest": "node src/index.js",
+    "test": "node src/main.js",
+    "dev": "webpack --config webpack.development.config --model=development",
+    "build": "webpack --config webpack.production.config --model=production",
+    "none": "webpack --model=production"
+  },
+  "author": "Herbie",
+  "license": "ISC",
+  "devDependencies": {
+    "webpack": "^4.8.3",
+    "webpack-cli": "^2.1.3"
+  }
+}
