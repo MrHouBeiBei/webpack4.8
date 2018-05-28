@@ -6,7 +6,7 @@
   "scripts": {
     "pretest": "node src/index.js ",
     "test": "node src/main.js",
-    "study": "node src/index.js",
+    "study": "nodemon src/index.js",
     "dev": "webpack --config webpack.development.config --model=development",
     "build": "webpack --config webpack.production.config --model=production",
     "none": "webpack"
@@ -15,6 +15,7 @@
   "license": "ISC",
   "devDependencies": {
     "chalk": "^2.4.1",
+    "nodemon": "^1.17.5",
     "webpack": "^4.8.3",
     "webpack-cli": "^2.1.3"
   }

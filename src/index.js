@@ -28,3 +28,5 @@ process.env.a = 'a'
 
 //全局变量
 log('文件路径', __dirname)
+
+console.log('nodemo 666')
